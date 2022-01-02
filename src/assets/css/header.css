@@ -1,0 +1,34 @@
+.navBar {
+  background-color: #060568;
+}
+.admin-side-bar {
+  background-color: #42a5f5;
+}
+
+.navbar-nav a {
+  font-weight: bold !important;
+  color: #fff !important;
+}
+.navbar-nav a.current {
+  color: tomato !important;
+}
+.navbar-nav a button.login-button {
+  background: linear-gradient(
+    335.64deg,
+    orange -19.22%,
+    red 118.87%
+  ) !important;
+  padding: 8px 25px !important;
+  color: #fff !important;
+  border-radius: 52px !important;
+  border: 0;
+}
+.ms-auto.navbar-nav {
+  align-items: center;
+}
+@media screen and (max-width: 992px) {
+  .ms-auto.navbar-nav {
+    margin: auto;
+    text-align: center;
+  }
+}
